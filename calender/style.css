@@ -1,0 +1,279 @@
+body {
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: cursive;
+    background-color: #f6f1ea;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+a {
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+}
+
+.calender-header {
+    display: flex;
+    height: 60px;
+    padding-block: 10px;
+    padding-inline: 50px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f6f1ea;
+    font-family: cursive;
+}
+
+.calender-logo {
+    margin-top: 30px;
+}
+
+.image-logo {
+    height: 300px;
+
+}
+
+.nav-container {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    padding-inline: 18px;
+}
+
+.nav-item .nav-link {
+    display: block;
+    color: #7A4069;
+    font-weight: 600;
+    font-size: 20px;
+    font-family: cursive;
+}
+
+.main-container {
+    margin-top: 20px;
+    background-color: rgb(229, 203, 227);
+    /* max-width: 100%; */
+    display: flex;
+    /* align-items: flex-start; */
+    font-size: 15px;
+    letter-spacing: 0.055em;
+    line-height: 1.6;
+    /* width: 100%; */
+    height: auto TY;
+    /* z-index: 4; */
+    /* padding-bottom: 30vh; */
+    border-radius: 15px;
+    border-width: 2px;
+}
+
+.card2-content {
+
+    border-radius: 15px;
+    border-width: 2px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 200px;
+    padding-right: 15px;
+    margin-top: 60px;
+
+}
+
+.todo-content {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #7A4069;
+    color: white;
+
+    border-radius: 15px;
+    border-width: 2px;
+
+}
+
+
+
+
+
+
+
+
+.head-title {
+    text-align: center;
+    font-size: 2em;
+    color: #7A4069;
+    margin-left: 190px;
+    letter-spacing: 5px;
+    font-family: cursive;
+
+}
+
+.calender-card1 {
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+
+    gap: 35px;
+    margin-left: 20px;
+
+}
+
+.calender-card2 {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: center; */
+    gap: 35px;
+    margin-left: 100px;
+    margin-top: 20px;
+
+}
+
+
+.weekdays {
+    position: relative;
+    width: 500px;
+
+    overflow: hidden;
+
+
+    font-size: xx-large;
+
+}
+
+.todo {
+    position: relative;
+    width: 300px;
+    /* overflow: hidden; */
+    /* background: #ffffff; */
+    font-size: xxx-large;
+
+
+
+}
+
+.weekdays-content {
+
+    padding: 10px 0;
+    margin: 0;
+    padding: 10px;
+    font-size: 16px;
+    background-color: #f6f1ea;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 15px;
+    border-width: 2px;
+
+
+}
+
+
+
+
+
+.title2 {
+    display: inline-block;
+    text-align: center;
+    padding: 15px;
+    color: #7A4069;
+    font-weight: bold;
+
+}
+
+.list {
+    display: inline-block;
+    width: 13.6%;
+    color: #7A4069;
+    text-align: center;
+}
+
+.days {
+    padding: 10px 0;
+    background: rgb(112, 28, 117);
+
+
+    border-radius: 15px;
+    border-width: 2px;
+    padding: 10px 0;
+    background: #f6f1ea;
+}
+
+.days li {
+    list-style-type: none;
+    display: inline-block;
+    width: 13.6%;
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #7A4069;
+
+}
+
+/* Highlight the "current" day */
+.days li .active {
+    padding: 5px;
+    background: #7A4069;
+    color: white !important
+}
+
+.form {
+
+    background: #7A4069;
+    border-radius: 15px;
+    border-width: 2px;
+    height: 380px;
+
+    margin-top: 30px;
+}
+
+
+.form li {
+    list-style-type: none;
+    width: max-content;
+
+    text-align: center;
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #7A4069;
+
+    display: inline-flex;
+
+
+
+}
+
+
+.month {
+
+    background: #7A4069;
+    text-align: center;
+}
+
+/* Month list */
+
+
+.month ul li {
+    color: white;
+    font-size: 20px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.check {
+
+    display: inline-flex;
+}
+
+p {
+    color: white;
+    font-weight: bold;
+}
+
+.image1 {
+    height: 500px;
+    margin-left: 50px;
+}
